@@ -1,0 +1,253 @@
+:root {
+    --PCyan: hsl(193, 100%, 96%);
+    --Cyan: hsl(192, 100%, 9%);
+    --GraBlue: hsl(208, 11%, 55%);
+    --black: black;
+    --white: white;
+    --Pink: hsl(322, 100%, 66%)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-color: var(--PCyan);
+    padding: 20px;
+}
+
+.first-section a {
+    text-decoration: none;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 6px 25px;
+    border-radius: 25px;
+    box-shadow: hsl(209, 50%, 90%) 0px 0px 9px 1px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-section img {
+    height: 22px;
+}
+
+.top-section h1 {
+font-family: 'Poppins', sans-serif;
+margin: 80px 0px 30px;
+font-size: 35px;
+}
+
+.top-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section p {
+font-size: 19px;
+margin-bottom: 35px;
+}
+
+.top-section a, .mid-section a {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--Pink);
+    padding: 14px 60px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.top-section img {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.second-section img {
+    width: 100%;
+}
+
+.second-section h1 {
+font-family: 'Poppins', sans-serif;
+}
+
+.second-section {
+    text-align: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 55px 50px 30px;
+    margin: 70px 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px whitesmoke;
+}
+
+.second-section p {
+    font-size: 18px;
+    color: var(--GraBlue);
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.mid-section {
+    text-align: center;
+    background-color: var(--white);
+    padding: 50px 20px;
+    margin: 160px 25px 0;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: -60px;
+    position: relative;
+}
+
+.mid-section h2 {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 316px) {
+    .mid-section a {
+        text-decoration: none;
+        color: var(--white);
+        background-color: var(--Pink);
+        padding: 11px 30px;
+        border-radius: 20px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+}
+
+footer {
+    background-color: var(--Cyan);
+}
+
+.huddle img {
+    width: 200px;
+    margin: 70px 0 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.icon img {
+    height: 19px;
+}
+
+.icon p {
+    color: var(--white);
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.foot {
+    margin-bottom: 43px;
+}
+
+.link a {
+    text-decoration: none;
+    display: flex;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.social img {
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.social {
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+
+.copyright {
+    color: var(--white);
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.community {
+    padding: 20px 20px 0;
+}
+
+.huddle {
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+@media (min-width: 800px) {
+    .top-section {
+        flex-direction: row;
+    }
+
+    .top-section div:first-child {
+        text-align: left;
+    }
+
+    header {
+        padding: 40px 60px 0;
+    }
+
+    .second-section {
+        flex-direction: row-reverse;
+        margin: 70px 60px;
+        text-align: left;
+    }
+
+    .second-section:nth-child(2) {
+        flex-direction: row;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .community {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        align-items: start;
+    }
+
+    footer {
+        padding: 50px 70px 0;
+    }
+    .mid-section {
+        /* margin: 0px 200px 0; */
+        width: 40%;
+        margin: auto;
+        margin-bottom: -60px;
+    }
+
+    .foot {
+        width: 30%;
+    }
+    .huddle {
+        margin-left: 71px;
+    }
+}

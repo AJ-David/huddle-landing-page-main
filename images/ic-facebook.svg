@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-facebook</title>
+    <g id="ic-facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="bounds" x="0" y="0" width="40" height="40" rx="20"></rect>
+            <path d="M21.6546943,28 L21.6546943,19.9990633 L23.7255649,19.9990633 L24,17.2418961 L21.6546943,17.2418961 L21.6582127,15.8619075 C21.6582127,15.1427958 21.7222769,14.7574794 22.690716,14.7574794 L23.98534,14.7574794 L23.98534,12 L21.9141762,12 C19.4263754,12 18.550734,13.3375227 18.550734,15.5868152 L18.550734,17.2422084 L17,17.2422084 L17,19.9993755 L18.550734,19.9993755 L18.550734,28 L21.6546943,28 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
